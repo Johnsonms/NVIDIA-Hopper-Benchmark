@@ -1,0 +1,52 @@
+warm up
+**********START MMA TF32 F32 BENCH***********
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 1, warp num = 1, SMs = 132, GPUFreq = 1980000000
+Latency = 16.0614
+Throughput = 31.8777 FMA/SM/clk, ideally 16.6631 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 1, warp num = 2, SMs = 132, GPUFreq = 1980000000
+Latency = 16.0592
+Throughput = 63.7641 FMA/SM/clk, ideally 33.3308 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 1, warp num = 4, SMs = 132, GPUFreq = 1980000000
+Latency = 16.0611
+Throughput = 127.513 FMA/SM/clk, ideally 66.6536 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 1, warp num = 8, SMs = 132, GPUFreq = 1980000000
+Latency = 16.0611
+Throughput = 255.026 FMA/SM/clk, ideally 133.307 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 1, warp num = 16, SMs = 132, GPUFreq = 1980000000
+Latency = 16.2216
+Throughput = 505.006 FMA/SM/clk, ideally 263.977 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 1, warp num = 32, SMs = 132, GPUFreq = 1980000000
+Latency = 33.1824
+Throughput = 493.756 FMA/SM/clk, ideally 258.096 TFLOPS/TOPS
+warm up
+**********START MMA TF32 F32 BENCH***********
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 4, warp num = 1, SMs = 132, GPUFreq = 1980000000
+Time : 92.8849 ms
+Throughput(whole kernel) : 58.2088 TFLOPS/TOPS
+Latency = 168750675
+Throughput(mma inst) = 63.4386 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 4, warp num = 2, SMs = 132, GPUFreq = 1980000000
+Time : 91.5713 ms
+Throughput(whole kernel) : 118.088 TFLOPS/TOPS
+Latency = 168750683
+Throughput(mma inst) = 126.877 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 4, warp num = 4, SMs = 132, GPUFreq = 1980000000
+Time : 91.0833 ms
+Throughput(whole kernel) : 237.441 TFLOPS/TOPS
+Latency = 168750688
+Throughput(mma inst) = 253.754 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 4, warp num = 8, SMs = 132, GPUFreq = 1980000000
+Time : 174.892 ms
+Throughput(whole kernel) : 247.317 TFLOPS/TOPS
+Latency = 323750718
+Throughput(mma inst) = 264.532 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 4, warp num = 16, SMs = 132, GPUFreq = 1980000000
+Time : 350.42 ms
+Throughput(whole kernel) : 246.868 TFLOPS/TOPS
+Latency = 647500742
+Throughput(mma inst) = 264.532 TFLOPS/TOPS
+mma.sync.aligned.m16n8k4.row.col.f32.tf32.tf32.f32 TEST with ILP = 4, warp num = 32, SMs = 132, GPUFreq = 1980000000
+Time : 700.68 ms
+Throughput(whole kernel) : 246.924 TFLOPS/TOPS
+Latency = 1295139675
+Throughput(mma inst) = 264.504 TFLOPS/TOPS

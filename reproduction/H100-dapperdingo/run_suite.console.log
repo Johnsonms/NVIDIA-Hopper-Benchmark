@@ -1,0 +1,50 @@
+### capturing environment ###
+### RegularUnits: compute throughput ###
+  -> raw/MaxFlops.log
+  -> raw/MaxFlops_16.log
+  -> raw/MaxFlops_64.log
+  -> raw/MaxFlops_int32.log
+  -> raw/MaxFlops_int64.log
+### RegularUnits: instruction latency ###
+  -> raw/alu_lat_float.log
+  -> raw/alu_lat_half.log
+  -> raw/alu_lat_double.log
+  -> raw/alu_lat_int32.log
+  -> raw/alu_lat_int64.log
+### RegularUnits: memory latency ###
+  -> raw/l1_lat.log
+  -> raw/l2_lat.log
+  -> raw/shared_lat.log
+  -> raw/mem_lat.log
+### RegularUnits: bandwidth ###
+  -> raw/l1_bw_32f.log
+  -> raw/l1_bw_64f.log
+  -> raw/l1_bw_128.log
+  -> raw/l2_bw_32f.log
+  -> raw/l2_bw_64f.log
+  -> raw/l2_bw_128.log
+  -> raw/shared_bw.log
+  -> raw/shared_bw_64.log
+  MISSING /home/johnson/NVIDIA-Hopper-Benchmark/RegularUnits/shared_bw_128/shared_bw_128
+  -> raw/mem_bw.log
+### RegularUnits: DRAM latency (array > L2) ###
+  -> raw/mem_lat_dram.log
+### TensorCores: MMA (warp-level) ###
+  -> raw/mma_m16n8k128.log
+  -> raw/mma_m16n8k16.log
+  -> raw/mma_m16n8k256.log
+  -> raw/mma_m16n8k32.log
+  -> raw/mma_m16n8k4.log
+  -> raw/mma_m16n8k64.log
+  -> raw/mma_m16n8k8.log
+  -> raw/mma_m8n8k16.log
+  -> raw/mma_m8n8k32.log
+### TensorCores: WGMMA (warpgroup, sm_90a) throughput ###
+  -> raw/wgmma_fp16.log
+  -> raw/wgmma_tf32.log
+  -> raw/wgmma_e4m3.log
+  -> raw/wgmma_s8.log
+  -> raw/wgmma_b1.log
+  -> raw/wgmma_fp16fp16.log
+  -> raw/wgmma_fp16e4m3.log
+### done. raw logs in /home/johnson/NVIDIA-Hopper-Benchmark/reproduction/H100-dapperdingo/raw ; env in /home/johnson/NVIDIA-Hopper-Benchmark/reproduction/H100-dapperdingo/env ###

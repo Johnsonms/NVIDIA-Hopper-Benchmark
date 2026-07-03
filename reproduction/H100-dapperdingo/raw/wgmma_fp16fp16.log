@@ -1,0 +1,4 @@
+SM90_64xNx16_F16F16F16_SS zero A in shem M=64,N=256,K=16  elapsed_time: 7.08387ms 976.952TFLOPS
+SM90_64xNx16_F16F16F16_RS zero A in reg M=64,N=256,K=16  elapsed_time: 7.08099ms 977.349TFLOPS
+SM90_64xNx16_F16F16F16_SS random A in shem M=64,N=256,K=16  elapsed_time: 7.16826ms 965.451TFLOPS
+SM90_64xNx16_F16F16F16_RS random A in reg M=64,N=256,K=16  elapsed_time: 7.15168ms 967.689TFLOPS

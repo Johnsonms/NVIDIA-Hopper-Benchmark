@@ -1,0 +1,4 @@
+SM90_64xNx256_S32B1B1_SS_TN zero A in shem M=64,N=256,K=256  elapsed_time: 7.09677ms 15602.8TFLOPS
+SM90_64xNx256_S32B1B1_RS_TN zero A in reg M=64,N=256,K=256  elapsed_time: 7.09424ms 15608.4TFLOPS
+SM90_64xNx256_S32B1B1_SS_TN random A in shem M=64,N=256,K=256  elapsed_time: 7.12365ms 15543.9TFLOPS
+SM90_64xNx256_S32B1B1_RS_TN random A in reg M=64,N=256,K=256  elapsed_time: 7.12394ms 15543.3TFLOPS
